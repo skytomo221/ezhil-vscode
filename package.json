@@ -1,0 +1,25 @@
+{
+    "name": "ezhil",
+    "displayName": "Ezhil",
+    "description": "Syntax highlighting for ezhil",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ezhil",
+            "aliases": ["Ezhil", "ezhil"],
+            "extensions": [".n"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ezhil",
+            "scopeName": "source.n",
+            "path": "./syntaxes/ezhil.tmLanguage.json"
+        }]
+    }
+}
