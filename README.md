@@ -24,4 +24,8 @@ None
 
 Initial release of sytax highlight
 
+### 1.1.0
+
+Add icon
+
 **Enjoy!**
