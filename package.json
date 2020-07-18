@@ -1,0 +1,27 @@
+{
+    "name": "ezhil",
+    "displayName": "Ezhil",
+    "description": "Syntax highlighting for ezhil",
+    "version": "1.0.0",
+    "publisher": "skytomo221",
+    "repository": "https://github.com/skytomo221/ezhil-vscode",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ezhil",
+            "aliases": ["Ezhil", "ezhil"],
+            "extensions": [".n"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ezhil",
+            "scopeName": "source.n",
+            "path": "./syntaxes/ezhil.tmLanguage.json"
+        }]
+    }
+}
