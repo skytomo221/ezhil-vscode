@@ -2,7 +2,9 @@
     "name": "ezhil",
     "displayName": "Ezhil",
     "description": "Syntax highlighting for ezhil",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "publisher": "skytomo221",
+    "repository": "https://github.com/skytomo221/ezhil-vscode",
     "engines": {
         "vscode": "^1.47.0"
     },
